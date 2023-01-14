@@ -1,0 +1,8 @@
+node_modules
+.env
+data-test.js
+data.json
+ee.txt
+ex.txt
+.vercel
+/.gitmodules
