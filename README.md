@@ -33,10 +33,10 @@ So if the user of the application is not registered with the app then a `403` er
 
 ## Screenshots of the application
 
-| ![Home Page](./screenshots/Home_Page_1.png) | 
+| ![Home Page 1](./screenshots/Home_Page_1.png) | 
 |:--:| 
 | *Home Page 1* |
-| ![Home Page](./screenshots/Home_Page_2.png) | 
+| ![Home Page 2](./screenshots/Home_Page_2.png) | 
 | *Home Page 2* |
 | ![Top Artists Page](./screenshots/Top_Artists.png) | 
 | *Top Artists Page* |
