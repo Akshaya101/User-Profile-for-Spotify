@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://spotify-user-profile.vercel.app ",
+  "homepage": "https://spotify-user-profile.vercel.app",
   "proxy": "http://localhost:8888/",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
