@@ -16,7 +16,6 @@ const CreatePlaylist = ({ userID, username, tracks, source }) => {
     }, [])
     return (
         <>
-            {create && console.log(create.id)}
             {create && <AddTracksToPlaylist playlistId={create.id} tracks={tracks} source={source} />}
             {/* {true && <AddTracksToPlaylist playlistId="48DyDMvQSlqx9FuqbIreoe" tracks={tracks} />} */}
         </>

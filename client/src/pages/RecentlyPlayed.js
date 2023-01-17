@@ -26,9 +26,6 @@ const RecentlyPlayed = () => {
                 </div>
             </div>
             {
-                console.log(tracks)
-            }
-            {
                 tracks ? <div className='mt-6'><DisplayTracks tracks={tracks} /></div> : <Loading />
             }
         </div>

@@ -103,7 +103,6 @@ const TopTracks = () => {
                 {
                     topTracks ? (
                         <>
-                            {console.log(topTracks)}
                             <div className='mt-6'>
                                 <DisplayTracks topTracks={topTracks} />
                             </div>

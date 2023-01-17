@@ -57,7 +57,6 @@ const Home = () => {
                 <button className={styles.whiteButton} onClick={logout}>Logout</button>
             </div>
             <div className={styles.pageContainer}>
-                {console.log(profile)}
                 {
                     profile && (
                         <>
@@ -88,7 +87,6 @@ const Home = () => {
                     {
                         artists ? (
                             <div className={styles.dataSection}>
-                                {console.log(artists.total)}
                                 <TopArtistsMonth artists={artists} />
                                 <TopTracksMonth len={artists.total} tracks={tracks} />
                             </div>

@@ -231,7 +231,6 @@ export const createPlaylist = (userId, name) => {
  */
 export const addTracksToPlaylist = (playlistId, uris) => {
     const url = `https://api.spotify.com/v1/playlists/${playlistId}/tracks?uris=${uris}`;
-    console.log(url)
     return axios({ method: 'post', url, headers });
 };
 

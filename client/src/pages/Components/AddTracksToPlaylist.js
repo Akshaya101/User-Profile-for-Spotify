@@ -36,10 +36,6 @@ const getTracksURI = (tracks, source) => {
 const AddTracksToPlaylist = ({ playlistId, tracks, source }) => {
     const [addTracks, setAddTracks] = useState(null)
     const tracksURI = getTracksURI(tracks, source)
-    console.log(tracks)
-    console.log(playlistId)
-    console.log(tracksURI)
-    console.log(source)
     useEffect(() => {
         const fetchData = async () => {
             const { data } = await addTracksToPlaylist(playlistId, tracksURI)

@@ -4,5 +4,6 @@ data-test.js
 data.json
 ee.txt
 ex.txt
-.vercel
-/.gitmodules
+/.vercel
+.gitmodules
+.gitignore
