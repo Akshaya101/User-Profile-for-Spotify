@@ -30,12 +30,11 @@ Spotify recently introduced new changes to their developer platform where new th
 
 So if the user of the application is not registered with the app then a `403` error will be displayed saying `"User not registered in the Developer Dashboard"`
 
-
 ## Screenshots of the application
 
 | ![Login Screen](./screenshots/Login_Screen.png) | 
 |:--:| 
-| *Home Page 1* |
+| *Login Screen* |
 | ![Home Page 1](./screenshots/Home_Page.png) | 
 | *Home Page 1* |
 | ![Home Page 2](./screenshots/Home_Page_2.png) | 
