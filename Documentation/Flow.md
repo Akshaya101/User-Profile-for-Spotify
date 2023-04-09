@@ -35,7 +35,7 @@ Each of these flows provides a slightly different level of authorization due to 
 
 Out of all four of these flows, the **Authorization Code Flow** is the only one that lets the client access user resources, requires a server-side secret key (an extra layer of security), and provides an access token that can be refreshed. The ability to refresh an access token is a big advantage — users of our app will only need to grant permission once.
 
-| ![Spotify Authorization flow](./Auth.png) |
-| :---------------------------------------: |
-|       *Spotify Authorization Flow*        |
+| ![Spotify Authorization flow](./Authorization.png) |
+| :------------------------------------------------: |
+|            *Spotify Authorization Flow*            |
 
